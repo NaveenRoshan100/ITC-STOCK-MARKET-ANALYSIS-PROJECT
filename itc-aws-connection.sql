@@ -8,7 +8,7 @@ CREATE OR REPLACE STORAGE INTEGRATION itc_integ
   TYPE = EXTERNAL_STAGE
   STORAGE_PROVIDER = 'S3'
   ENABLED = TRUE
-  STORAGE_AWS_ROLE_ARN = 'my-id'
+  STORAGE_AWS_ROLE_ARN = 'arn_url'
   STORAGE_ALLOWED_LOCATIONS = ('s3://itc-history-stock-data/', 's3://itc-daily-update-date/')
   comment ='continue';
   
